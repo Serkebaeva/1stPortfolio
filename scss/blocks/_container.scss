@@ -1,6 +1,10 @@
 @import "../vars";
 
-.container {
+.header__container {
+  background-image: url(../../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 770px;
   width: 1440px;
   min-height: 770px auto;
   position: relative;

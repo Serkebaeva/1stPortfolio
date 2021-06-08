@@ -1,11 +1,6 @@
 @import "../vars";
 
 .header {
-  background-image: url(../../images/bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 770px;
-
   &__title {
     position: absolute;
     margin: 285px 20px 25px 125px;
