@@ -1,0 +1,110 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  background-image: url(../../images/bg.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  min-height: 770px;
+}
+
+.header__title {
+  position: absolute;
+  margin: 285px 20px 25px 125px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  color: #ffffff;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.header__nav {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  font-family: "Libre Franklin", sans-serif;
+  z-index: -1;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.header__nav li {
+  text-decoration: none;
+  list-style: none;
+  padding: 35px;
+}
+
+.header a.last__projects {
+  position: absolute;
+  margin: 380px 20px 25px 125px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 100;
+  font-size: 28px;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-box-ordinal-group: 4;
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.container {
+  width: 1440px;
+  min-height: 770px auto;
+  position: relative;
+}
+
+.span {
+  /* margin: 285px 20px 25px 125px;*/
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  color: #ffffff;
+}

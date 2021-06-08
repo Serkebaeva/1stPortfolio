@@ -1,1 +1,53 @@
-@import "../_vars";
+@import "../vars";
+
+.header {
+  background-image: url(../../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 770px;
+
+  &__title {
+    position: absolute;
+    margin: 285px 20px 25px 125px;
+    align-self: center;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    color: $lightest;
+    order: 2;
+  }
+
+  &__nav {
+    order: 1;
+    display: flex;
+    color: $lightest;
+    font-family: $main-font;
+    z-index: -1;
+    justify-content: space-around;
+    align-items: center;
+
+    & ul {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    & li {
+      text-decoration: none;
+      list-style: none;
+      padding: 35px;
+    }
+  }
+
+  a.last__projects {
+    position: absolute;
+    margin: 380px 20px 25px 125px;
+    font-family: $main-font;
+    font-weight: 100;
+    font-size: 28px;
+    color: $lightest;
+    text-decoration: none;
+    order: 3;
+  }
+}

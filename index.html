@@ -14,21 +14,23 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">
-        Привет, Я Айзада Серкебаева<br />
-        <span>Веб-разработчик</span>
-      </h1>
-      <h2 class="header__nav-title">Портфолио</h2>
-      <nav class="header__nav">
-        <ul class="nav-main">
-          <li class="nav-main-list">Главная</li>
-          <li class="nav-main-list">Обо мне</li>
-          <li class="nav-main-list">Навыки</li>
-          <li class="nav-main-list">Мои проекты</li>
-          <li class="nav-main-list">Контакты</li>
-        </ul>
-      </nav>
-      <h3>Последние работы</h3>
+      <div class="container">
+        <h1 class="header__title">
+          Привет, я Айзада Серкебаева<br />          
+          <span class="span">Веб-разработчик</span>
+        </h1>        
+        <nav class="header__nav">
+          <h2 class="header__nav-title">Портфолио</h2>
+          <ul class="nav__main">
+            <li class="nav__main-list">Главная</li>
+            <li class="nav__main-list">Обо мне</li>
+            <li class="nav__main-list">Навыки</li>
+            <li class="nav__main-list">Мои проекты</li>
+            <li class="nav__main-list">Контакты</li>
+          </ul>
+        </nav>
+        <a class="last__projects" href="inner-pages/my__projects.html">Последние работы</a>
+      </div>
     </header>
     <section class="about__me">
       <h2 class="about__me">Обо мне</h2>
@@ -84,9 +86,36 @@
       </div>
     </section>
     <section class="contacts">
-      <ul class="contacts__portfolio-list">
-        <li class="contacts__portfolio-links">a href</li>
-      </ul>
+      <div class="container">
+        <ul class="contacts__portfolio-list">
+          <li class="contacts__portfolio-links">
+            <a href="#">Github</a>
+          </li>
+          <li class="contacts__portfolio-links">
+            <a href="#">CodePen</a>
+          </li>
+        </ul>
+        <ul class="contacts__socials">
+          <li class="contacts__socials-links">
+            <a href="#">LinkedIn</a>
+          </li>
+          <li class="contacts__socials-links">
+            <a href="#">Facebook</a>
+          </li>
+          <li class="contacts__socials-links">
+            <a href="#">Instagram</a>
+          </li>
+        </ul>
+        <ul class="contacts__email">
+          <li class="contacts__email-link">
+            <a href="#">aizada.serkebaeva.pls@gmail.com</a>
+          </li>
+          </li>
+          <li class="contacts__telephon">
+            <a href="#">+996 500 119 880</a>
+          </li>
+        </ul>
+      </div>
     </section>
   </body>
 </html>
