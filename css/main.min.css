@@ -18,10 +18,10 @@ body {
 }
 
 .header__container {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 217, 203, 0.7)), to(rgba(242, 217, 203, 0.7))), url(../../images/portfolio.jpg);
-  background-image: -webkit-linear-gradient(rgba(242, 217, 203, 0.7), rgba(242, 217, 203, 0.7)), url(../../images/portfolio.jpg);
-  background-image: -o-linear-gradient(rgba(242, 217, 203, 0.7), rgba(242, 217, 203, 0.7)), url(../../images/portfolio.jpg);
-  background-image: linear-gradient(rgba(242, 217, 203, 0.7), rgba(242, 217, 203, 0.7)), url(../../images/portfolio.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 217, 203, 0.7)), to(rgba(242, 217, 203, 0.7))), url(../../images/bg.png);
+  background-image: -webkit-linear-gradient(rgba(242, 217, 203, 0.7), rgba(242, 217, 203, 0.7)), url(../../images/bg.png);
+  background-image: -o-linear-gradient(rgba(242, 217, 203, 0.7), rgba(242, 217, 203, 0.7)), url(../../images/bg.png);
+  background-image: linear-gradient(rgba(242, 217, 203, 0.7), rgba(242, 217, 203, 0.7)), url(../../images/bg.png);
   background-repeat: no-repeat;
 }
 
@@ -133,12 +133,4 @@ h2 {
 .container {
   /*margin: 0 auto;*/
   padding: 0 15px;
-}
-
-.span {
-  /* margin: 285px 20px 25px 125px;*/
-  font-family: "Libre Franklin", sans-serif;
-  font-weight: 300;
-  font-size: 34px;
-  color: #ffffff;
 }
