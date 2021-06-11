@@ -53,17 +53,17 @@
   &__title {
     font-family: $main-font;
     font-weight: 700;
-    font-size: 80%;
+    font-size: 1rem;
     margin-left: auto;
-    padding: 0em 4em;
+    padding: 0em 1.5em;
     color: $main;
 
     span {
-      font-family: $main-font;
+      font-family: "Libre Franklin", sans-serif;
       font-weight: 400;
       font-size: 80%;
       margin-left: auto;
-      padding: 0em 0em;
+      padding: 0em 0.3em;
       color: $main;
     }
   }
@@ -94,9 +94,13 @@
 h2 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 200;
-  font-size: 50%;
-  margin-left: auto;
-  padding: 2em 6.5em;
+  font-size: 80%;
+  /* margin-left: auto; */
+  padding: 1em 3.5em;
   padding-bottom: 6em;
   color: #fffaf2;
+}
+
+#exception-title {
+  font-size: 1.5em;
 }
