@@ -1,8 +1,26 @@
 @import "../vars";
 
 .skills {
-  &__img {
-    width: 100%;
+  background-color: $secondary;
+
+  &__skills-title {
+    color: $darkest;
+  }
+
+  &__description {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  &__list-title {
+    width: 30%;
     height: auto;
   }
+}
+
+.skills__img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
 }

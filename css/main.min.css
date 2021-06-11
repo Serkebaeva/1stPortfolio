@@ -41,12 +41,12 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1em 0;
+  padding: 1em 15px;
 }
 
 .header__logo {
   margin: 0 1em;
-  width: 60%;
+  width: 69%;
   height: auto;
   text-align: start;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .header .menu-toggler {
-  background-color: #dbcab3;
+  background-color: #d6cbbb;
   margin: 0 auto;
   cursor: pointer;
   -webkit-border-radius: 0.25em;
@@ -126,7 +126,7 @@ body {
   display: block;
 }
 
-h2 {
+.last-projects {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 200;
   font-size: 80%;
@@ -142,7 +142,7 @@ h2 {
 
 .container {
   /*margin: 0 auto;*/
-  padding: 0 15px;
+  padding: 15px 15px;
 }
 
 link {
@@ -155,8 +155,14 @@ li {
   list-style: none;
 }
 
+a {
+  color: #8b4136;
+  text-decoration: none;
+  list-style: none;
+}
+
 .about {
-  background-color: #fffaf2;
+  background-color: #ffffff;
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -166,6 +172,8 @@ li {
   font-weight: 700;
   font-size: 1.5em;
   color: #333333;
+  margin-top: 0;
+  padding-top: 15px;
 }
 
 .about__description {
@@ -173,4 +181,7 @@ li {
   font-weight: 400;
   font-size: 1em;
   color: #333333;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  text-align: initial;
 }
