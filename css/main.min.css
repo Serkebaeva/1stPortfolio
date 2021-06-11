@@ -30,11 +30,10 @@ body {
 }
 
 .header__container {
+  background-color: rgba(230, 192, 160, 0.7);
   background-image: url(../../images/bg.png);
-  background-color: #fffaf2;
   background-position: cover;
   background-repeat: no-repeat;
-  background-blend-mode: overlay;
 }
 
 .header__inner {
@@ -110,7 +109,7 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   padding: 0 15px;
 }
 

@@ -2,11 +2,10 @@
 
 .header {
   &__container {
+    background-color: rgba(230, 192, 160, 0.7);
     background-image: url(../../images/bg.png);
-    background-color: $main;
     background-position: cover;
     background-repeat: no-repeat;
-    background-blend-mode: overlay;
   }
 
   &__inner {
