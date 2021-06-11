@@ -134,3 +134,28 @@ h2 {
   /*margin: 0 auto;*/
   padding: 0 15px;
 }
+
+.about {
+  background-color: #fffaf2;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.about__title {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #333333;
+}
+
+.about__description {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #333333;
+}
+
+.about__description a {
+  text-decoration: none;
+  color: #8b4136;
+}
