@@ -2,10 +2,15 @@
 
 .header {
   &__container {
-    background-color: rgba(230, 192, 160, 0.7);
+    background-image: linear-gradient(
+        rgba(242, 217, 203, 0.7),
+        rgba(242, 217, 203, 0.7)
+      ),
+      url(../../images/bg.png);
+    /* background-color: rgba(242, 217, 203, 0.7);
     background-image: url(../../images/bg.png);
     background-position: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
   }
 
   &__inner {
