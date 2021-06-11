@@ -7,72 +7,54 @@
         rgba(242, 217, 203, 0.7)
       ),
       url(../../images/bg.png);
-    /* background-color: rgba(242, 217, 203, 0.7);
-    background-image: url(../../images/bg.png);
     background-position: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
   }
 
   &__inner {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 1em 0;
   }
 
   &__logo {
-    width: 30%;
+    max-width: 70%;
     height: auto;
     text-align: center;
+
+    &__link {
+      display: inline-block;
+      padding: 1em;
+      text-decoration: none;
+      color: $main;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
   }
 
   &__nav {
-    width: 70%;
+    width: 100%;
     height: auto;
-    margin: left auto;
-    display: none;
+    margin: right auto;
+    display: flex;
+    padding: 1em 0;
     color: $lightest;
     font-family: $main-font;
     justify-content: space-around;
     align-items: center;
-
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
-
-      & li {
-        text-decoration: none;
-        list-style: none;
-        padding: 35px;
-      }
-    }
-
-    &__title {
-      position: absolute;
-      margin: 285px 20px 25px 125px;
-      align-self: center;
-      font-family: $main-font;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 64px;
-      line-height: 78px;
-      color: $lightest;
-    }
   }
 
   .menu-toggler {
-    background-color: $secondary;
+    background-color: $menu-toggler-color;
     margin-left: auto;
+    cursor: pointer;
+    border-radius: 0.25em;
   }
 
-  /*a.last__projects {
-    position: absolute;
-    margin: 380px 20px 25px 125px;
-    font-family: $main-font;
-    font-weight: 100;
-    font-size: 28px;
-    color: $lightest;
-    text-decoration: none;
-    order: 3;}*/
+  .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 }
