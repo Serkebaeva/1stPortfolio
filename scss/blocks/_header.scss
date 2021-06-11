@@ -49,24 +49,24 @@
     cursor: pointer;
     border-radius: 0.25em;
   }
+}
 
-  .menu {
-    display: none;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.menu {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
-    &__link {
-      text-decoration: none;
-      display: block;
-      padding: 0.8em 0;
-      color: $main;
-      text-align: center;
-      border-bottom: 1px dotted $main;
-    }
+  &__link {
+    display: block;
+    padding: 0.8em 0;
+    text-decoration: none;
+    color: $main;
+    text-align: center;
+    border-bottom: 1px dotted $main;
   }
+}
 
-  /*.js-menu-show {
-
-  }*/
+.js-menu-show {
+  display: block;
 }

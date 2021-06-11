@@ -17,12 +17,6 @@ body {
   font-size: 16px;
 }
 
-.header {
-  /*.js-menu-show {
-
-  }*/
-}
-
 .header__container {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 217, 203, 0.7)), to(rgba(242, 217, 203, 0.7))), url(../../images/bg.png);
   background-image: -webkit-linear-gradient(rgba(242, 217, 203, 0.7), rgba(242, 217, 203, 0.7)), url(../../images/bg.png);
@@ -86,20 +80,24 @@ body {
           border-radius: 0.25em;
 }
 
-.header .menu {
+.menu {
   display: none;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.header .menu__link {
-  text-decoration: none;
+.menu__link {
   display: block;
   padding: 0.8em 0;
+  text-decoration: none;
   color: #fffaf2;
   text-align: center;
   border-bottom: 1px dotted #fffaf2;
+}
+
+.js-menu-show {
+  display: block;
 }
 
 .container {
