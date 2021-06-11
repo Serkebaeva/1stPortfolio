@@ -49,10 +49,29 @@
     cursor: pointer;
     border-radius: 0.25em;
   }
+
+  &__title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 80%;
+    margin-left: auto;
+    padding: 0em 4em;
+    color: $main;
+
+    span {
+      font-family: $main-font;
+      font-weight: 400;
+      font-size: 80%;
+      margin-left: auto;
+      padding: 0em 0em;
+      color: $main;
+    }
+  }
 }
 
 .menu {
   display: none;
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -61,12 +80,23 @@
     display: block;
     padding: 0.8em 0;
     text-decoration: none;
-    color: $main;
+    color: grey;
     text-align: center;
     border-bottom: 1px dotted $main;
+    background-color: #e2dace;
   }
 }
 
 .js-menu-show {
   display: block;
+}
+
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 200;
+  font-size: 50%;
+  margin-left: auto;
+  padding: 2em 6.5em;
+  padding-bottom: 6em;
+  color: #fffaf2;
 }
