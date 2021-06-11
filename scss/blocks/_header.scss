@@ -1,1 +1,41 @@
-@import "../_vars";
+@import "../vars";
+
+.header {
+  &__container {
+    background-image: url(../../images/bg.png);
+    background-color: $main;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 30%;
+    height: auto;
+    text-align: center;
+  }
+
+  &__nav {
+    width: 70%;
+    height: auto;
+    margin: left auto;
+    display: none;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
+  }
+
+  .menu-toggler {
+    background-color: $secondary;
+    margin-left: auto;
+  }
+}
