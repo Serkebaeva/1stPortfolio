@@ -41,12 +41,13 @@ body {
 }
 
 .header__logo {
+  margin: 0 1em;
   max-width: 70%;
   height: auto;
   text-align: center;
 }
 
-.header__logo__link {
+.header__link {
   display: inline-block;
   padding: 1em;
   text-decoration: none;
