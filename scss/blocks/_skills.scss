@@ -5,27 +5,31 @@
 
   &__chart {
     padding-bottom: 2em;
-  }
-
-  &__skills-title {
-    color: $darkest;
-    text-align: center;
-  }
-
-  &__description {
     display: grid;
     grid-template-columns: 40% 60%;
+    grid-auto-rows: auto;
+    grid-row-gap: 5px;
+    line-height: 1em;
+
+    &__skills-title {
+      color: $darkest;
+      text-align: center;
+    }
+
+    &__description {
+      display: inline-block;
+    }
+
+    &__list-title {
+      width: 30%;
+      height: auto;
+    }
   }
 
-  &__list-title {
-    width: 30%;
+  .skills__img {
+    width: 100%;
     height: auto;
+    margin: 0 auto;
+    padding: 15px;
   }
-}
-
-.skills__img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 15px;
 }

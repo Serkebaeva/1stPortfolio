@@ -191,24 +191,32 @@ a {
   background-color: #f5d6ab;
 }
 
-.skills__skills-title {
-  color: #333333;
-  text-align: center;
-}
-
-.skills__description {
+.skills__chart {
+  padding-bottom: 2em;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
+  grid-auto-rows: auto;
+  grid-row-gap: 5px;
+  line-height: 1em;
 }
 
-.skills__list-title {
+.skills__chart__skills-title {
+  color: #333333;
+  text-align: center;
+}
+
+.skills__chart__description {
+  display: inline-block;
+}
+
+.skills__chart__list-title {
   width: 30%;
   height: auto;
 }
 
-.skills__img {
+.skills .skills__img {
   width: 100%;
   height: auto;
   margin: 0 auto;
