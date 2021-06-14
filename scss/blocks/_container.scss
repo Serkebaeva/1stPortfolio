@@ -3,22 +3,5 @@
 .container {
   margin: 0 auto;
   padding: 15px 15px;
-  display: inline-block;
   align-self: center;
-}
-
-@media (min-width: 500px) {
-  .container {
-    margin: 0 3em;
-  }
-
-  .header__title {
-    margin-left: 1em;
-  }
-}
-
-@media (max-width: 674px) {
-  .container {
-    margin: 0 7em;
-  }
 }
