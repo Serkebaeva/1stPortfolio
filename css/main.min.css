@@ -172,8 +172,9 @@ a {
   font-weight: 700;
   font-size: 1.5em;
   color: #333333;
-  margin-top: 0;
+  margin-top: 0 auto;
   padding-top: 15px;
+  text-align: center;
 }
 
 .about__description {
@@ -184,4 +185,84 @@ a {
   margin-bottom: 0;
   padding-bottom: 15px;
   text-align: initial;
+}
+
+.skills {
+  background-color: #f5d6ab;
+}
+
+.skills__skills-title {
+  color: #333333;
+  text-align: center;
+}
+
+.skills__description {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+}
+
+.skills__list-title {
+  width: 30%;
+  height: auto;
+}
+
+.skills__img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.projects {
+  padding: 15px;
+}
+
+.projects__logo-title {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 750;
+}
+
+.projects__title {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 550;
+  font-size: 1.5em;
+  color: #333333;
+  margin-top: 0;
+}
+
+.projects__img-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 5px;
+}
+
+.grid1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/ 3;
+}
+
+.grid2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/ 4;
+}
+
+.grid3 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3/ 5;
+}
+
+.grid4 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/ 5;
 }

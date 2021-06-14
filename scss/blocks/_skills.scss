@@ -3,8 +3,13 @@
 .skills {
   background-color: $secondary;
 
+  &__chart {
+    padding-bottom: 2em;
+  }
+
   &__skills-title {
     color: $darkest;
+    text-align: center;
   }
 
   &__description {
