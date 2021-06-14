@@ -61,6 +61,14 @@ body {
   text-transform: uppercase;
 }
 
+.header__link-secondary {
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+  color: #fffaf2;
+  font-size: 1em;
+}
+
 .header__nav {
   width: 100%;
   height: auto;
@@ -192,19 +200,20 @@ a {
 }
 
 .skills__chart {
-  padding-bottom: 2em;
+  padding: 2em;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
-  grid-auto-rows: auto;
-  grid-row-gap: 5px;
-  line-height: 1em;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+      grid-template-areas: "Profile Profile-description" "Frontend Indicator-frontend" "Tools html-css" "UI-design Indicator-UI-design" "tools2 Adobe";
 }
 
 .skills__chart__skills-title {
   color: #333333;
-  text-align: center;
 }
 
 .skills__chart__description {
@@ -221,6 +230,18 @@ a {
   height: auto;
   margin: 0 auto;
   padding: 15px;
+}
+
+.Profile,
+.Frontend,
+.tools,
+.tools2,
+.UI-design {
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
 }
 
 .projects {
@@ -273,4 +294,8 @@ a {
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4/ 5;
+}
+
+.contacts {
+  float: left;
 }

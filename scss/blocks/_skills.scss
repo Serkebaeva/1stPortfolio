@@ -4,16 +4,21 @@
   background-color: $secondary;
 
   &__chart {
-    padding-bottom: 2em;
+    padding: 2em;
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-auto-rows: auto;
-    grid-row-gap: 5px;
-    line-height: 1em;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Profile Profile-description"
+      "Frontend Indicator-frontend"
+      "Tools html-css"
+      "UI-design Indicator-UI-design"
+      "tools2 Adobe";
 
     &__skills-title {
       color: $darkest;
-      text-align: center;
     }
 
     &__description {
@@ -32,4 +37,15 @@
     margin: 0 auto;
     padding: 15px;
   }
+}
+.Profile,
+.Frontend,
+.tools,
+.tools2,
+.UI-design {
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
 }

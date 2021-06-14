@@ -13,11 +13,11 @@
     <title>Portfolio-Aizada</title>
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="header__container" "container">
        <div class="header__inner">
          <div class="header__logo">
-           <a href="#" class="header__link">Портфолио</a>           
+           <a href="#header" class="header__link">Портфолио</a>           
           </div>
          <button class="menu-toggler">
           <svg
@@ -33,19 +33,19 @@
          <nav class="header__nav">
          <ul class="menu">
            <li class="menu__list">
-             <a href="#" class="menu__link">Главная</a>
+             <a href="#header" class="menu__link">Главная</a>
            </li>
            <li class="menu__list">
-             <a href="#" class="menu__link">Обо мне</a>
+             <a href="#about" class="menu__link">Обо мне</a>
            </li>
            <li class="menu__list">
-             <a href="#" class="menu__link">Навыки</a>
+             <a href="#skills" class="menu__link">Навыки</a>
            </li>
            <li class="menu__list">
-             <a href="#" class="menu__link">Мои проекты</a>
+             <a href="#projects" class="menu__link">Мои проекты</a>
            </li>
            <li class="menu__list">
-             <a href="#" class="menu__link">Контакты</a>
+             <a href="#contacts" class="menu__link">Контакты</a>
            </li>
          </ul>
          </nav>
@@ -54,12 +54,13 @@
           Привет, Я Айзада Серкебаева<br />
           <span>Веб-разработчик</span>
          </h1>
-         <h2 class="last-projects">Последние работы</h2>
+         <h2 class="last-projects">
+           <a class="header__link-secondary" href="#projects">Последние работы</a></h2>
        </div>
       </div>
 
     </header>
-    <section class="about">
+    <section id="about" class="about">
       <h3 class="about__title">Обо мне</h3>
       <p class="about__description">
         Привет, я начинающий Web-разработчик! Начала изучать HTML,
@@ -71,7 +72,7 @@
         <a href="https://github.com/Serkebaeva">github</a>
       </p>
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
       <div class="container">
         <h2 class="skills__skills-title">Skills</h2>
         <img
@@ -79,27 +80,22 @@
         src="images/portfolio.jpg"
         alt="portfolio-img"/>
       </div>
-     
-     <div class="skills__chart">
-      <ul class="skills__description" class="skills-grid1">
-        <li class="skills__list-title" class="skills-item1">Профиль</li>
-        <li class="skills__list-title" class="skills-item2">Фронт-Енд разработка</li>
-        <li class="skills__list-title" class="skills-item3">Инструменты</li>
-        <li class="skills__list-title" class="skills-item4">UI дизайн</li>
-        <li class="skills__list-title" class="skills-item5">Инструменты</li>
-      </ul>
-
-      <ul class="skills__description" class="skills-grid2">
-        <li class="skills__list">UI дизайн, Фронт-Енд разработка</li>
-        <li class="skills__list">Indicator-front-end</li>
-        <li class="skills__list">HTML, CSS, JS, BOOTSTRAP</li>
-        <li class="skills__list">Indicator-UI-design</li>
-        <li class="skills__list">Adobe Ps, AI, Figma</li>
-      </ul>
-     </div>
+          
+      <div class="skills__chart">
+        <div class="Profile">Профиль</div>
+        <div class="Profile-description">UI-дизайн,Фронт-Енд разработка</div>
+        <div class="Frontend">Фронт-Енд-разработка</div>  
+        <div class="Indicator-frontend">Indicator-frontend</div>        
+        <div class="tools">Инструменты</div>          
+        <div class="html-css">HTML, CSS, JS, BOOTSTRAP</div>
+        <div class="UI-design">UI-дизайн</div>
+        <div class="Indicator-UI-design">Indicator UI-design</div>
+        <div class="tools2">Инструменты</div>        
+        <div class="Adobe">Adobe-Ps, AI, Figma</div>
+      </div>
     
     </section>
-    <section class="projects">
+    <section id="projects" class="projects">
       <h2 class="projects__logo-title">Портфолио</h2>
       <div class="projects">
         <h3 class="projects__title">Проекты</h3>
@@ -117,7 +113,7 @@
         <img class="grid4" src="images/Rectangle2.png" alt="Project pictures" class="projects__img" />
       </div>
     </section>
-    <section class="contacts">
+    <section id="contacts" class="contacts">
       <div class="container">
         <ul class="contacts__portfolio-list">
           <li class="contacts__portfolio-links">
