@@ -150,7 +150,7 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 15px 15px;
+  padding: 0px 0px;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
               -ms-grid-row-align: center;
@@ -201,6 +201,7 @@ a {
 
 .skills {
   background-color: #f5d6ab;
+  padding-top: 15px;
 }
 
 .skills__chart {
@@ -268,6 +269,8 @@ h2 {
 }
 
 .projects__img-container {
+  width: 100%;
+  height: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -275,6 +278,7 @@ h2 {
   grid-column-gap: 2px;
   grid-row-gap: 5px;
   padding: 5px;
+  margin: 0 auto;
 }
 
 .grid1 {
@@ -303,4 +307,5 @@ h2 {
 
 .contacts {
   float: left;
+  padding-bottom: 10px;
 }
