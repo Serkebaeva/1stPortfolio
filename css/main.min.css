@@ -275,6 +275,7 @@ h2 {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 5px;
   padding: 5px;
